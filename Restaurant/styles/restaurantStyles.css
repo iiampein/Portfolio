@@ -1,0 +1,94 @@
+body {
+    background-color:navajowhite;
+    color: black;
+    font-family: arial;
+    max-width: 900px;
+    margin: 0 auto;
+}
+header, footer {
+  background-color: #5b7d87;
+  color: gold;
+  height: 200px;
+  text-align: center;
+  padding:30px 10px 20px 10px;
+}
+.jumbotron {
+  background-color: #5b7d87;
+  padding: 50px;
+}
+h1 {
+  font-family:sans-serif;
+  font-weight: bold;
+  font-size: 2.5em;
+  font-family: 'Lobster', cursive;
+}
+h2 {
+  font-family:sans-serif;
+  font-weight: bold;
+  font-size: 2.5em;
+  font-family: 'Lobster', cursive;
+}
+footer {
+  height: 180px;
+  padding: 45px;
+  margin-top: 40px;
+}
+nav {
+  border-top: thick #5b7d87 dotted;
+  border-bottom: thick #5b7d87 dotted;
+  text-align: right;
+  margin-top: 20px;
+}
+.clear-float {
+  clear:both;
+}
+nav a {
+  background-color: #FBFB29;
+  color: #FF0000;
+  padding: 8px;
+  border: thin solid #0d1f2d;
+  text-align: center;
+  margin: 20px;
+  width: 100px;
+  float: center;
+}
+nav a:visited {
+    color: red;
+}
+nav a:hover {
+  font-weight: bold;
+  background-color: #fef9ff;
+  color: purple;
+}
+nav a:active {
+  font-weight: bold;
+}
+article {
+  margin-top: 20px;
+}
+.btn {
+  margin-top: 10px;
+  background-color: #FFC0CB;
+  color: #FF0000;
+  border: thin solid #0d1f2d;
+  font-weight: bold;
+}
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+h3 {
+  color: white;
+  font-weight: bold;
+
+}
+h2, p {
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 2px;
+}
+.container {
+  width: 100%;
+  height: 100%;
+}
